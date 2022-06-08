@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <script src="js/main.js"></script>
+
+    <div class="card">
+        <h2 class="main-text">Página de Login</h2>
+
+        <form>
+            <label class="form-label">Username</label>
+            <input placeholder="Insira o username" type="username" class="box" id="username">
+            <br>
+            <label class="form-label">Senha</label>
+            <input placeholder="Insira a senha" type="password" class="box" id="password">
+            <br>
+            <span id="login_failed"></span>
+
+            <div class="center">
+            <button type="button" class="btn" onClick="getInfo()">Confirmar</button></div>
+        </form>
+    </div>
+</body>
+</html>

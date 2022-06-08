@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pagina</title>
+</head>
+<body>
+    <section class="container">
+        <h1 class="main-text">Formulário de acesso</h1>
+        <label for="name">Informe o seu nome:</label>
+        <br><br>
+        <input required type="text" id="name" name="name">
+
+    <div class="block">
+        <p class="title">Dia</p>
+        <input type="text" name="dia" id="day" placeholder="dd" minlength="1" maxlength="2" required>
+    </div>
+    <div class="block">
+        <p class="title">Mês</p>
+        <input type="text" name="mes" id="month" placeholder="mm" minlength="1" maxlength="2" required>
+    </div>
+    <div class="block">
+        <p class="title">Ano</p>
+        <input type="text" name="ano" id="year" placeholder="yyyy" minlength="4" maxlength="4" required>
+    </div>
+
+    <br>
+    <button class="btn" onclick="underAge()" type="submit" form="form1" value="Submit">Submit</button>
+</section>
+
+<script src="JS/main.js"></script>
+</body>
+</html>
