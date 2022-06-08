@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Elemento table</title>
+</head>
+
+<body>
+    <header>
+        <h1>Exemplo de atributo rowspan</h1>
+    </header>
+    
+    <article>
+        <table border="3">
+            <caption>Dinheiro poupado em 2020</caption>
+            <thead>
+                <tr>
+                    <th>Mês</th>
+                    <th>Poupanças</th>
+                    <th>Poupado p/ aniversário</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>Janeiro</td>
+                    <td>R$100,00</td>
+                    <td rowspan="2">R$50,00</td>
+                </tr>
+                <tr>
+                    <td>Fevereiro</td>
+                    <td>R$80,00</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+
+        <h2>Exemplo atributo colspan</h2>
+
+        <table border="3">
+            <caption>Vendas do Produto X</caption>
+            <thead>
+                <tr>
+                    <th colspan="4">Vendas Trimestrais</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <th rowspan="3">2010</th>
+                    <td>144.000</td>
+                </tr>
+                <tr>
+                    <td>254.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </article>
+
+    <footer>
+        <small>Instituto da Oportunidade Social</small>
+    </footer>
+</body>
+
+</html>
