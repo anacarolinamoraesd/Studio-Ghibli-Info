@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"         integrity="sha384wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">   
+    <title>Exemplo Bootstrap</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Bootstrap Navbar</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSuportContent" aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Sobre</a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"></a>
+                        </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="p-5 bg-warning">
+        <div class="container-fluid py-5">
+        <h1 class="display-5 fw-bold">Bem-vindo ao meu Website</h1>
+        <p class="col-md-8 fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora nesciunt exercitationem nihil officia asperiores labore cumque blanditiis delectus nisi ab excepturi modi deserunt eligendi voluptates eos, voluptate architecto aut corporis.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Aprenda Mais</a>
+        </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.m in.js"         integrity="sha384p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"    crossorigin="anonymous"></script>
+
+    <section class="container text-center">
+        <h1 class="pb-2 mt-4 mb-2 border-bottom">Hello World! <small>Secondary text</small></h1>
+        <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste reiciendis quas, nesciunt id laborum similique vero ipsa animi? Nobis fugit quisquam ipsa eum nemo. Quidem reiciendis molestiae iusto quaerat aut?</p>
+        <p><mark>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </mark> Ex voluptas tenetur, dolorem dolore autem dolorum facere. <del> nihil. Iure vero porro illo odio fuga </del>eos nostrum placeat dicta <u>Lorem ipsum dolor sit amet.</u>nulla harum.</p>
+
+        <hr>
+    </section>
+
+    <section class="container">
+        <p class="text-start text-lowercase">Texto ainhado à esquerda da área de visualização</p>
+        <p class="text-center text-uppercase">Texto alinhado na área de visualização</p>
+        <p class="text-end">Texto alinhado à direita da área de visualização</p>
+    <p class="text-nowrap">Texto sem quebra de linha. Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+
+    <hr>
+    </section>
+
+    <section class="container">
+        <div class="float-start">Float no início da área de visualização</div><br>
+        <div class="float-end">Float no final da área de visualização</div><br>
+        <div class="float-none">Sem float na área de visualização</div>
+
+    <div class="clearfix"></div>
+    <hr>
+    </section>
+
+    <section class="container">
+        <blockquote class="blockquote">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, perspiciatis enim ipsam aspernatur quia asperiores fugiat sed excepturi quam corporis quisquam praesentium optio culpa, itaque totam ex! Temporibus, laboriosam excepturi!</p>
+            <figcaption class="blockquote-footer">
+                <cite title="Source Title">Jean-Jacque Rousseau</cite>
+            </figcaption>
+        </blockquote>
+        <hr>
+    </section>
+
+    <section class="container">
+        <ul class="list-unstyled">
+            <li>Item um</li>
+            <li>Item dois</li>
+            <li>Item três</li>
+            <li>Item quatro</li>
+        </ul>
+
+        <ul class="list-inline">
+            <li class="list-inline-item">Item um</li>
+            <li class="list-inline-item">Item dois</li>
+            <li class="list-inline-item">Item três</li>
+            <li class="list-inline-item">Item quatro</li>
+        </ul>
+
+        <ol>
+            <li>Item um</li>
+            <li>Item dois</li>
+            <li>Item três</li>
+            <li>Item quatro</li>
+        </ol>
+        <hr>
+    </section>
+
+    <section class="container">
+        <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+        <br><br>
+        Mude de diretório com o comando <kbd>cd</kbd> 
+        <br><br>
+        Para acessar as configurações de edição, pressione <kbd><kbd>ctrl</kbd> + <kbd>,</kbd></kbd>
+        <hr>
+    </section>
+
+    <section class="container">
+        <p class="text-primary">cor do texto: text-primary</p>
+        <p class="text-success">cor do texto: text-success</p>
+        <p class="text-info">cor do texto= text-info</p>
+        <p class="text-warning">cor do texto= text-warning</p>
+        <p class="text-danger">cor do texto= text-danger</p>
+        <p class="text-muted">cor do texto= text-muted</p>
+        <p class="text-black-50">cor do texto= text-black-50</p>
+
+        <p class="bg-primary">cor de fundo: bg-primary</p>
+        <p class="bg-success">cor de fundo: bg-success</p>
+        <p class="bg-info">cor de fundo: bg-info</p>
+        <p class="bg-danger">cor de fundo: bg-danger</p>
+        <p class="bg-muted">cor de fundo: bg-muted</p>
+
+        <p class="text-white bg-dark">cor do texto: text-white e cor de fundo: bg-dark</p>
+        <p class="text-white-50 bg-success">cor do texto: text-white-50 e cor de fundo: bg-success</p>
+        <hr>
+    </section>
+
+    <section class="container">
+        <button class="btn btn-outline-secondary">Botão um</button>
+        <a href="#" class="btn btn-outline-secondary" role="button">Botão dois</a>
+        <input type="submit" class="btn btn-outline-secondary" value="Enviar">
+        <br><br>
+
+        <button class="btn btn-primary">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-sucess">Sucess</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-danger">Danger</button>
+        <button class="btn btn-dark">Dark</button>
+        <button class="btn btn-light">Light</button>
+        <button class="btn btn-link">Link</button>
+        <br><br>
+
+        <button class="btn btn-outline-secondary btn-lg">Botão um</button>
+        <button class="btn btn-primary btn-sm">Primary</button>
+        <button class="btn btn-secondary" disabled="disabled"> Secondary</button>
+<br><br>
+
+<button type="button" class="btn btn-outline-primary">Primary</button>
+<button type="button" class="btn btn-outline-secondary">Secondary</button>
+<button type="button" class="btn btn-outline-success">Success</button>
+<button type="button" class="btn btn-outline-danger">Danger</button>
+<button type="button" class="btn btn-outline-warning">Warning</button>
+<button type="button" class="btn btn-outline-info">Info</button>
+<button type="button" class="btn btn-outline-light">Light</button>
+<button type="button" class="btn btn-outline-dark">Dark</button>
+    </section>
+    
+</body>
+</html>

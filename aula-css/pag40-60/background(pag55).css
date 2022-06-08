@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #d7dcff ;
+    line-height: 1.6;
+    text-align: left;
+}
+
+h1, h2 {
+    margin-left: 25px;
+}
+
+
+.showcase {
+    background-image: url(https://konachan.com/jpeg/193bbe888d9dfc5c7ddd34324adb4007/Konachan.com%20-%20235101%20clouds%20fal%20grass%20kimi_no_na_wa%20landscape%20miyamizu_mitsuha%20night%20scenic%20short_hair%20silhouette%20sky%20stars.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+p, ul {
+    background-color: rgb(197, 226, 252,.3);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 25px;
+}
+

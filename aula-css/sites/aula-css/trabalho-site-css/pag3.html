@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <title>STUDIO GHIBLI - Formulário </title>
+</head>
+<body class="body-background">
+    <header>
+        <div class="bg-img">
+            <div class="hero">
+                <div class="navbar">
+                    <img src="Studio_Ghibli_logo.png" alt="logo">
+                    <ul>
+                        <li><a target="_blank" href="pag1.html">Home</a></li>
+                        <li><a target="_blank" href="pag2.html">Curiosidades</a></li>
+                        <li><a target="_blank" href="pag3.html">Formulário</a></li>
+                         
+                     </ul>
+                </div>
+            </div>
+       
+        <div class="bg-text-pag3">
+        <h1>Formulário</h1>
+
+    </div>
+
+    <main class="main-pag3">
+        <article class="formulario">
+        <form action="#">
+            <label class="style" for="cNome">Nome:</label>
+            <input type="text" size="50" name="tNome" id="cNome" required="required">
+<br><br>
+            <label class="style" for="idade">Selecione sua idade:</label>
+            <select id="idade" name="idade">
+                <option value="10-15">10-15</option>
+                <option value="15-20">15-20</option>
+                <option value="20-25">20-25</option>
+                <option value="25-30">25-30</option>
+                <option value="30-35">30-35</option>
+            </select>
+            <br><br>
+
+            <label class="style"  for="cCid">Escolha a sua Cidade na lista:</label>
+            <input autocomplete="on" list="cidade" name="tCid" id="cCid" aria-placeholder="Sua Cidade"/>
+            <datalist id="cidade">
+                <option value="São Paulo"></option>
+                <option value="Recife"></option>
+                <option value="Joinville"></option>
+                <option value="Curitiba"></option>
+                <option value="Rio de Janeiro"></option>
+            </datalist>
+            <br><br>
+            <button class="style"  type="submit" value="Enviar">Enviar</button>  
+
+        </form>
+    </article>
+
+    </main>
+
+  <br><br>
+
+
+<article class="article-pag3">
+<h3>Planos Ghibli Plus</h3>
+<br><br>
+
+<div class=" icon">
+    <img src="crown.png" alt="crown icon">
+</div>
+    <ol class="price-box border-plano1">
+        <li class="header-plano">FAN</li>
+    
+        <li class="emph"><strong>R$ 25,00/Mês</strong></li>
+    
+        <li class="border"><a href="#"> INICIAR TESTE GRATUITO DE 14 DIAS</a></li>
+        <li class="after-border"><a class="after-border" href="#">PULAR TESTE GRATUITO</a></li>
+        <li>&#x2714; Sem anúncios</li>
+        <li>&#x2714; Acesso ilimitado ao acervo do Studio Ghibli</li>
+        <li>&#x2714; Assista em até 2 telas</li>
+    
+        <li class="erased">&#x2718; Offline Viewing</li>
+        <li class="erased">&#x2718; 16% de desconto na anuidade (cobrado a cada 12 meses)</li>
+    </ol>
+
+    <ol class="price-box">
+        <li class="header-plano">MEGA FAN(1 Mês)</li>
+    
+        <li class="emph"><strong>R$ 32,00/Mês</strong></li>
+    
+        <li class="border2"><a href="#"> INICIAR TESTE GRATUITO DE 14 DIAS</a></li>
+        <li class="after-border"><a class="after-border" href="#">PULAR TESTE GRATUITO</a> </li>
+        <li>&#x2714; Sem anúncios</li>
+        <li>&#x2714; Acesso ilimitado ao acervo do Studio Ghibli</li>
+        <li>&#x2714; Assista em até 4 telas</li>
+    
+        <li>&#x2714;Offline Viewing</li>
+        <li class="erased"> &#x2718; 16% de desconto na anuidade (cobrado a cada 12 meses)</li>
+    </ol>
+
+    <ol class="price-box">
+        <li class="header-plano">MEGA FAN(1 Ano)</li>
+    
+        <li class="emph"><strong>R$ 315,00/ano</strong></li>
+    
+        <li class="border"><a href="#"> INICIAR TESTE GRATUITO DE 14 DIAS</a></li>
+    
+        <li class="after-border"><a class="after-border" href="#">PULAR TESTE GRATUITO</a></li>
+        <li>&#x2714; Sem anúncios</li>
+        <li>&#x2714; Acesso ilimitado ao acervo do Studio Ghibli</li>
+        <li>&#x2714; Assista em até 4 telas</li>
+    
+        <li>&#x2714; Offline Viewing</li>
+        <li>&#x2714; 16% de desconto na anuidade (cobrado a cada 12 meses)</li>
+    </ol>
+</article>
+<br>
+  
+<center>
+ <footer class="footer-pag3">
+    <small> Curso Programação WEB - IOS &copy; 2022 - Ana Carolina Moraes Dacoregio</small>
+ </footer>
+</center>
+</body>
+</html>

@@ -1,0 +1,37 @@
+@charset "utf-8";
+
+body {
+    background-color: rgb(90, 111, 147);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer-part {
+    width: 300px;
+    height: 300px;
+    border-radius: 50% 0;
+    background-color: aliceblue;
+    margin: 250px auto;
+    transform: rotate(45deg);
+}
+
+.outer-circle {
+    background-color: aliceblue;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: 250px auto;
+    box-shadow: 0 0 0 30px rgb(90, 111, 147);
+    position: fixed;
+}
+
+.inner-circle {
+    background-color: rgb(90, 111, 147);
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+

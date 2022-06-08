@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Pseudoclasses</title>
+    <style>
+        p:first-child {
+            color: blue;
+        }
+        .mylist li:first-child {
+            background: greenyellow;
+        }
+        .mylist li:nth-child(3) {
+            background: grey;
+        }
+        .mylist li:last-child {
+            background: yellow;
+        }
+        a:hover {
+            background: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <p>Primeiro elemento &lt;p&gt; filho do elemeto &lt;section&gt;.</p>
+        <p>Parágrafo qualquer.</p>
+    </section>
+
+    <hr> 
+
+    <section>
+        <p>Lista não ordenada colorida</p>
+        <ul class="mylist">
+        <li>Primeiro filho</li>
+        <li>Segundo filho</li>
+        <li>Terceiro filho</li>
+        <li>Quarto filho</li>
+        <li>Último filho</li>
+
+    </ul>
+    </section>
+
+    <hr>
+
+    <a href="https://ios.org.br/">IOS</a>
+    <a href="https://www.wikipedia.org">wikipedia.org</a>
+
+    <p><strong>Nota:</strong>A pseudoclasse :hover aplica o estilo quando o mouse passa por cima do elemento.</p>
+
+    <hr>
+
+    <footer>
+        <p>Primeiro elemento &lt;p&gt; filho do elemento &lt;footer&gt;.</p>
+        <p>Parágrafo qualquer.</p>
+    </footer>
+    
+</body>
+</html>
